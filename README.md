@@ -1,6 +1,6 @@
 # Presentation Service in Scala and Play Framework
 
-### What Does it Mean for a Language to be Strongly Typed?
+## What Does it Mean for a Language to be Strongly Typed?
 Strong Typing is not the same as Static Typing.
 
 In this talk, we’ll describe what it means for a programming language to be strongly typed.
@@ -9,8 +9,19 @@ We will spend some time talking about mechanics of how strongly typed languages 
 
 Finally, we provide you with some techniques to producing reliable software when using weakly typed languages.
 
-### Deployment
+## Running:
+Build the deployment artifact:
+```shell
+./sbt clean stage
+```
+
 Run:
+```shell
+./target/universal/stage/bin/presentation-service
+```
+
+## Developing
+Run with live updates:
 ```shell
 ./sbt run
 ```
